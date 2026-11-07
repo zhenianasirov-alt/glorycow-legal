@@ -15,7 +15,7 @@
       <header class="header">
         <p class="brand">Fortune Oracle</p>
         <h1 data-i18n="title">Privacy Policy</h1>
-        <p class="updated" data-i18n="updated">Last updated: September 2026</p>
+        <p class="updated" data-i18n="updated">Last updated: November 2026</p>
 
         <div class="lang-switch" role="group" aria-label="Language">
           <button
@@ -81,23 +81,33 @@
           <section>
             <h2>3. Advertising</h2>
             <p>
-              Fortune Oracle uses the Yandex Mobile Ads SDK to display
-              advertising.
+              Fortune Oracle may use Yandex Mobile Ads or Google AdMob to
+              display rewarded advertising. The provider is selected from a
+              country code returned by our HTTPS routing endpoint hosted as a
+              Cloudflare Worker. The app does not request precise device
+              location.
             </p>
             <p>
-              The advertising service may process technical device information,
-              advertising identifiers, and information necessary to deliver and
-              measure advertising, prevent fraud, and operate the advertising
-              service.
+              To choose a provider, the app makes a request to that endpoint.
+              As with any network request, the endpoint receives the connection
+              request and can derive a country from its source IP address. This
+              policy does not make a statement about endpoint logging or
+              retention; those operational settings must be verified before
+              release.
             </p>
             <p>
-              Such information is processed by Yandex according to its own
-              applicable terms and privacy policies.
+              Advertising SDKs may process technical device information,
+              advertising identifiers, and information needed to deliver and
+              measure advertising, prevent fraud, and operate their services.
+              Those activities are governed by the applicable policies of
+              Yandex and Google.
             </p>
             <p>
-              The app asks users to make a choice regarding advertising data
-              processing. Declining consent does not prevent access to the app's
-              core functionality.
+              Yandex consent is requested separately when Yandex is selected.
+              When Google AdMob is selected, the app uses Google's User
+              Messaging Platform to collect and update privacy choices where
+              required. Declining consent does not prevent access to the app's
+              core Sphere functionality.
             </p>
           </section>
 
@@ -134,9 +144,10 @@
             <h2>6. Third-party services</h2>
             <p>We do not sell personal information provided by users.</p>
             <p>
-              Fortune Oracle uses Yandex Mobile Ads to deliver and measure
-              advertising. Information processed by this third-party service is
-              subject to the applicable policies of its provider.
+              Fortune Oracle may use Yandex Mobile Ads and Google Mobile Ads to
+              deliver and measure advertising, depending on the routed country.
+              Information processed by those third-party services is subject to
+              the applicable policies of each provider.
             </p>
           </section>
 
@@ -167,6 +178,8 @@
             <h2>9. Your choices</h2>
             <p>
               You can decline advertising data consent when it is requested.
+              Where Google requires a privacy-options entry point, it is
+              available from the app's privacy settings.
             </p>
             <p>
               On iOS, tracking permission can also be controlled through the
@@ -245,24 +258,33 @@
           <section>
             <h2>3. Реклама</h2>
             <p>
-              Fortune Oracle использует Yandex Mobile Ads SDK для показа
-              рекламы.
+              Fortune Oracle может использовать Yandex Mobile Ads или Google
+              AdMob для показа рекламы с вознаграждением. Поставщик выбирается
+              по коду страны, который возвращает наш HTTPS endpoint для
+              маршрутизации, размещённый в Cloudflare Worker. Приложение не
+              запрашивает точную геолокацию устройства.
             </p>
             <p>
-              Рекламный сервис может обрабатывать техническую информацию об
-              устройстве, рекламные идентификаторы и информацию, необходимую для
-              показа рекламы, измерения её эффективности, предотвращения
-              мошенничества и работы рекламной системы.
+              Для выбора поставщика приложение отправляет запрос на этот
+              endpoint. Как и при любом сетевом запросе, endpoint получает
+              запрос подключения и может определить страну по исходному
+              IP-адресу. Эта политика не утверждает, ведутся ли endpoint-ом
+              логи и каков срок их хранения: эти операционные настройки нужно
+              проверить до релиза.
             </p>
             <p>
-              Такая информация обрабатывается Yandex в соответствии с его
-              собственными применимыми условиями и политиками
-              конфиденциальности.
+              Рекламные SDK могут обрабатывать техническую информацию об
+              устройстве, рекламные идентификаторы и данные, необходимые для
+              показа и измерения рекламы, предотвращения мошенничества и
+              работы рекламной системы. Такая обработка регулируется
+              применимыми политиками Yandex и Google.
             </p>
             <p>
-              Приложение запрашивает у пользователя выбор относительно
-              обработки данных для рекламы. Отказ от согласия не ограничивает
-              доступ к основным функциям приложения.
+              Для Yandex согласие запрашивается отдельно, когда выбран Yandex.
+              Когда выбран Google AdMob, приложение использует Google User
+              Messaging Platform для получения и обновления privacy choices,
+              если это требуется. Отказ от согласия не ограничивает доступ к
+              основным функциям Сферы.
             </p>
           </section>
 
@@ -299,9 +321,11 @@
             <h2>6. Сторонние сервисы</h2>
             <p>Мы не продаём персональные данные, предоставленные пользователями.</p>
             <p>
-              Fortune Oracle использует Yandex Mobile Ads для показа и измерения
-              рекламы. Информация, обрабатываемая этим сторонним сервисом,
-              регулируется применимыми политиками его поставщика.
+              Fortune Oracle может использовать Yandex Mobile Ads и Google
+              Mobile Ads для показа и измерения рекламы — в зависимости от
+              страны, определённой для маршрутизации. Информация, которую
+              обрабатывают эти сторонние сервисы, регулируется применимыми
+              политиками соответствующего поставщика.
             </p>
           </section>
 
@@ -333,7 +357,8 @@
             <h2>9. Ваш выбор</h2>
             <p>
               Пользователь может отказаться от рекламного согласия при его
-              запросе.
+              запросе. Если Google требует entry point для privacy options, он
+              доступен в настройках конфиденциальности приложения.
             </p>
             <p>
               На iOS разрешением на отслеживание также можно управлять средствами

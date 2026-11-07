@@ -10,8 +10,8 @@
   };
 
   var updated = {
-    en: "Last updated: September 2026",
-    ru: "Последнее обновление: сентябрь 2026",
+    en: "Last updated: November 2026",
+    ru: "Последнее обновление: ноябрь 2026",
   };
 
   var policyEn = document.getElementById("policy-en");
